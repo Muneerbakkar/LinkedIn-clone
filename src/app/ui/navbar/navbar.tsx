@@ -168,7 +168,7 @@ const Navbar = () => {
       </nav>
 
       {isOpen && (
-        <div className="md:hidden mx-2 my-2 rounded-lg fixed inset-0 bg-blue-200 backdrop-blur-sm shadow-lg bg-opacity-50 z-50 w-60 text-black">
+        <div className="md:hidden mx-2 my-2 rounded-lg fixed inset-0 bg-cyan-50 backdrop-blur-sm shadow-lg bg-opacity-50 z-50 w-60 text-black">
           <div className="flex justify-end p-4">
             <button onClick={toggleNavbar} className="focus:outline-none">
               <svg
