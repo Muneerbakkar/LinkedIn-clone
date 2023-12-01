@@ -129,7 +129,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex justify-between p-4">
+          <div className="flex justify-between p-4 text-black">
             <div className="flex items-center">
               <div className="w-6 h-6 mr-2">
                 <Image
@@ -169,7 +169,7 @@ export default function Home() {
           </div>
         </div>
         <hr className="border-1 border-white mb-4 mt-4" />
-        <div className=" bg-white lg:rounded-lg mb-4 bg-opacity-50 backdrop-blur-xl shadow-2xl">
+        <div className=" bg-white lg:rounded-lg mb-4 bg-opacity-50 backdrop-blur-xl shadow-2xl text-black">
           <div className="flex justify-between p-4">
             <div className="flex items-center">
               <div className="w-6 h-6 mr-2">

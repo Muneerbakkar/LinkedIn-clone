@@ -119,11 +119,11 @@ const Navbar = () => {
 
           {/* Profile Picture with Dropdown Menu */}
           <div className="flex items-center relative mr-5 lg:mr-10">
-            <div className="flex flex-col">
+            <div className="flex flex-col w-12 h-12">
               <Image
                 src="/profile-pic.jpg"
                 alt="Contact"
-                className="w-10 h-10 rounded-full ml-6 cursor-pointer"
+                className="object-cover w-full h-full rounded-full ml-6 cursor-pointer"
                 onClick={toggleDropdown}
                 width={100}
                 height={0}
@@ -147,7 +147,7 @@ const Navbar = () => {
           </div>
 
           <div className="lg:hidden">
-            <button onClick={toggleNavbar} className="focus:outline-none">
+            <button onClick={toggleNavbar} className="focus:outline-none text-black">
               <svg
                 className="h-6 w-6"
                 fill="none"
@@ -170,7 +170,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden fixed inset-0 bg-sky-50 backdrop-blur-sm shadow-lg bg-opacity-90 z-50 w-60">
           <div className="flex justify-end p-4">
-            <button onClick={toggleNavbar} className="focus:outline-none">
+            <button onClick={toggleNavbar} className="focus:outline-none text-black">
               <svg
                 className="h-6 w-6"
                 fill="none"
