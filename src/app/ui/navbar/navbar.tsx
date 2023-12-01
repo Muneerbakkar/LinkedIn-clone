@@ -19,8 +19,8 @@ const Navbar = () => {
   };
 
   return (
-    <div>
-      <nav className="bg-white  p-4 bg-opacity-50 backdrop-blur-xl shadow-lg fixed top-0 right-0 left-0 z-10">
+    <div className="">
+      <nav className="bg-white  p-4 bg-opacity-20 backdrop-blur-sm shadow-lg fixed top-0 right-0 left-0 z-10 mx-2 my-2 rounded-lg lg:rounded-lg lg:mx-40 lg:my-5">
         <div className="container mx-auto flex justify-between items-center gap-4">
           <div className="">
             <Link href="/">
@@ -168,7 +168,7 @@ const Navbar = () => {
       </nav>
 
       {isOpen && (
-        <div className="md:hidden fixed inset-0 bg-sky-50 backdrop-blur-sm shadow-lg bg-opacity-90 z-50 w-60 text-black">
+        <div className="md:hidden mx-2 my-2 rounded-lg fixed inset-0 bg-blue-200 backdrop-blur-sm shadow-lg bg-opacity-50 z-50 w-60 text-black">
           <div className="flex justify-end p-4">
             <button onClick={toggleNavbar} className="focus:outline-none">
               <svg

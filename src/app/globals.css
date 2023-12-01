@@ -18,5 +18,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-image: linear-gradient(to  bottom right, rgba(255, 255, 255, 0), rgb(197, 224, 235));
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 255),
+    /* Start with white */ rgb(96, 153, 218),
+    /* Transition to red */ rgb(255, 255, 255) /* Transition to blue */
+  );
 }
